@@ -1,12 +1,13 @@
-import React from 'react';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import reactimg from '../assets/react.png';
-import nextjs from '../assets/nextjs.png';
-import graphql from '../assets/graphql.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import springboot from '../assets/springboot.png';
+import postman from '../assets/postman.png';
+import postgres from '../assets/postgres.png';
+import mongodb from '../assets/mongodb.png';
 
 
 const Experience = () => {
@@ -39,10 +40,34 @@ const Experience = () => {
             style:" shadow-sky-400 hover:shadow-[0_5px_15px_5px_skyblue]"
         },
         {
-            id:8,
+            id:6,
             src: github,
             title:"GITHUB",
             style:" shadow-gray-400 hover:shadow-[0_5px_15px_5px_gray]"
+        },
+        {
+            id:7,
+            src: springboot,
+            title:"SPRINGBOOT",
+            style:" shadow-lime-400 hover:shadow-[0_5px_15px_5px_lightgreen]"
+        },
+        {
+            id:8,
+            src: mongodb,
+            title:"MONGODB",
+            style:" shadow-green-400 hover:shadow-[0_5px_15px_5px_green]"
+        },
+        {
+            id:9,
+            src: postgres,
+            title:"POSTGRES",
+            style:" shadow-sky-200 hover:shadow-[0_5px_15px_5px_skyblue]"
+        },
+        {
+            id:10,
+            src: postman,
+            title:"POSTMAN",
+            style:" shadow-orange-400 hover:shadow-[0_5px_15px_5px_orange]"
         },
     ]
   return (
