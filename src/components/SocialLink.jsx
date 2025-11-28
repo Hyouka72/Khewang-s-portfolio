@@ -21,7 +21,7 @@ const SocialLink = () => {
                           Github<FaGithub size={30}/>
                 </>
             ),
-            href:'https://github.com/Hyouka45',
+            href:'https://github.com/Hyouka72',
         },
         {
             id: 3,
@@ -40,7 +40,7 @@ const SocialLink = () => {
                           Instagram<FaInstagram size={30}/>
                 </>
             ),
-            href:'https://www.instagram.com/hyouka1_72/',
+            href:'https://www.instagram.com/hyouka_72',
             style:'rounded-br-lg'
         },
        
