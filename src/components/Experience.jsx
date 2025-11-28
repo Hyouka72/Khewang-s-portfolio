@@ -9,10 +9,29 @@ import postman from '../assets/postman.png';
 import postgres from '../assets/postgres.png';
 import mongodb from '../assets/mongodb.png';
 import Cplusplus from '../assets/C++.png';
+import java from '../assets/java.png';
 
 
 const Experience = () => {
     const skills = [
+        {
+            id: 12,
+            src: java,
+            title: "JAVA",
+            style: " shadow-orange-400 hover:shadow-[0_5px_15px_5px_red]"
+        },
+        {
+            id: 11,
+            src: Cplusplus,
+            title: "C++",
+            style: " shadow-blue-400 hover:shadow-[0_5px_15px_5px_blue]"
+        },
+        {
+            id: 3,
+            src: javascript,
+            title: "JAVASCRIPT",
+            style: " shadow-yellow-500 hover:shadow-[0_5px_15px_5px_yellow]"
+        },
         {
             id: 1,
             src: html,
@@ -24,17 +43,14 @@ const Experience = () => {
             src: css,
             title: "CSS",
             style: " shadow-blue-500 hover:shadow-[0_5px_15px_5px_blue]"
-        }, {
-            id: 3,
-            src: javascript,
-            title: "JAVASCRIPT",
-            style: " shadow-yellow-500 hover:shadow-[0_5px_15px_5px_yellow]"
-        }, {
+        }, 
+         {
             id: 4,
             src: reactimg,
             title: "REACT",
             style: " shadow-blue-600 hover:shadow-[0_5px_15px_5px_darkblue]"
-        }, {
+        }, 
+        {
             id: 5,
             src: tailwind,
             title: "TAILWIND",
@@ -64,18 +80,14 @@ const Experience = () => {
             title: "POSTGRES",
             style: " shadow-sky-200 hover:shadow-[0_5px_15px_5px_skyblue]"
         },
-        {
-            id: 11,
-            src: Cplusplus,
-            title: "C++",
-            style: " shadow-blue-400 hover:shadow-[0_5px_15px_5px_blue]"
-        },
+        
         {
             id: 10,
             src: postman,
             title: "POSTMAN",
             style: " shadow-orange-400 hover:shadow-[0_5px_15px_5px_orange]"
         },
+        
     ]
     return (
         <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen '>
