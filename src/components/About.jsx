@@ -8,10 +8,11 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>About</p>
         </div>
         <p className='text-xl mt-20 text-justify'>
-        I’m Khewang Thing, a dedicated Full-Stack Developer with a passion for solving complex problems and delivering exceptional user experiences. With expertise in technologies like HTML, CSS, Javascript, React and tailwindCSS. I thrive on crafting scalable, efficient, and visually appealing applications.
+        I’m Khewang, a Java backend developer passionate about building secure, scalable, and efficient systems. With expertise in Spring Boot, Spring Security, and JWT authentication, I design APIs and backend architectures that prioritize performance, reliability, and user-friendly experiences.
+.
         </p> <br />
         <p className='text-xl text-justify'>
-        Beyond coding, I enjoy exploring new technologies and continuously learning to stay ahead in the ever-evolving tech landscape. My goal is to create solutions that not only meet but exceed client expectations, making a real impact through technology. Let’s collaborate to turn your ideas into reality!
+         I enjoy solving complex problems, refining legacy code into modern solutions, and ensuring every project I work on is robust, maintainable, and ready to grow. Beyond coding, I thrive on collaborative debugging, sharing knowledge, and continuously exploring new technologies to stay ahead in the ever-evolving world of backend development.
         </p>
       </div>
     </div>
